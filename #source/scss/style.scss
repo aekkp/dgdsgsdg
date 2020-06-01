@@ -1,0 +1,151 @@
+.container {
+	max-width: 1170px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.header {
+	&__contacts {
+		background-color: #262829;
+	}
+	&__row {
+		margin-left: 60%;
+		display: flex;
+		color: #727779;
+		font-family: Montserrat;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 36px;
+		text-transform: uppercase;
+	}
+	&__email {
+		color: #ffffff;
+		letter-spacing: 0.6px;
+		span {
+			color: #a2a5a6;
+			letter-spacing: 0.6px;
+		}
+	}
+	&__stick {
+		width: 1px;
+		height: 40px;
+		background-color: #505253;
+		margin: 0px 20px;
+	}
+	&__phone {
+		color: #ffffff;
+		letter-spacing: 0.6px;
+		span {
+			color: #a2a5a6;
+			letter-spacing: 0.6px;
+		}
+	}
+}
+.header {
+	&__nav {
+		background-color: #fff;
+		padding: 30px 0px;
+	}
+	&__navrow {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		width: 149px;
+		height: 42px;
+		position: relative;
+		z-index: 2;
+		img {
+			max-width: 100%;
+		}
+	}
+}
+.nav {
+	&__menu2 {
+		display: none;
+	}
+	&__list {
+		display: flex;
+		>li {
+			list-style: none;
+			margin: 0px 0px 0px 35px;
+			}
+		}
+	&__link {
+		color: #4e4e4e;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 30px;
+		text-transform: uppercase;
+		transition: all 0.4s;
+		&:hover {
+			color: #ffac55;
+		}
+	}
+}
+.home {
+	background-image: url(../img/Layer_12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	margin: 140px 0px 0px 0px;
+	&__content {
+		padding: 176px 0px 57px 0px;
+	}
+	&__box {
+		position: relative;
+		max-width: 458px;
+		max-height: 476px;
+	}
+	&__yellow {
+		max-width: 100%;
+		max-height: 100%;
+		background-color: #ffac56;
+	}
+	&__text {
+		&_yellow {
+			color: #ffffff;
+			font-family: Montserrat;
+			font-weight: 400;
+			line-height: 36px;
+			text-transform: uppercase;
+			padding: 35px 66px 35px 39px;
+			font-size: calc(14px + 12 * (100vw / 1230px));
+			span {
+				font-family: Lato;
+				font-size: 30px;
+				font-weight: 300;
+				letter-spacing: -0.75px;
+			}
+		}
+		&_blue {
+			color: #ffffff;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 30px;
+			text-transform: uppercase;
+			letter-spacing: -0.14px;
+		}
+	}
+	&__row {
+		display: flex;
+	}
+	&__blue {
+		border: 1px solid  #00a6d3;
+		width: 229px;
+		height: 128px;
+		background-color: #03b6e7;
+	}
+	&__icon {
+		margin: 34px 0px 12px 40px;
+	}
+}
